@@ -1,10 +1,11 @@
 @import "foundation/common/ratios";
+@import url(http://fonts.googleapis.com/css?family=Cuprum:400,700&subset=latin,latin-ext);
 
 // Settings file containing Foundation defaults
 
 // Grid Settings
 
-$rowWidth: 1440px;
+// $rowWidth: 1440px;
 // $columnGutter: 30px;
 // $totalColumns: 12;
 // $mobileTotalColumns: 4;
@@ -12,21 +13,21 @@ $rowWidth: 1440px;
 
 // Colors Settings
 
-// $mainColor: #2ba6cb;
-// $secondaryColor: #e9e9e9;
+$mainColor: #8C081F;
+$secondaryColor: #FF9A00;
 // $alertColor: #c60f13;
 // $successColor: #5da423;
 // $txtColor: #222;
 // $highlightColor: #ffff99;
 // $black: #000;
-// $white: #fff;
+$white: #E6E6E6;
 // $shinyEdge: rgba(#fff, .5);
 // $darkEdge: rgba(#000, .2);
 
 // Font Settings
 
 // $fontSmoothing: antialiased;
-// $headerFontFamily: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$headerFontFamily: 'Cuprum', sans-serif;
 // $headerFontWeight: bold;
 // $headerFontStyle: normal;
 // $headerFontColor: #222;
@@ -41,7 +42,7 @@ $rowWidth: 1440px;
 
 // Button Settings
 
-// $buttonRadius: 3px;
+$buttonRadius: 3px;
 // $btnBase: 10px;
 
 // $tinyBtnBase: $btnBase - 5;

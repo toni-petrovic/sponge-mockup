@@ -1,0 +1,22 @@
+#content{
+	margin-top: 30px !important;
+}
+
+.s-home {
+	border-bottom: 3px solid $secondaryColor;
+}
+
+.cart-toggle {
+	font-size: 20px !important;
+}
+
+.has-tip{
+	cursor: auto;
+	border-bottom: none;
+}
+
+.current{
+	background-color: $secondaryColor;
+	@include box-shadow(rgba(0,0,0,0.5) 0 0 10px 2px inset);
+	color:black !important;
+}

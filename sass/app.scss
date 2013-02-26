@@ -4,11 +4,17 @@
 // Comment out this import if you are customizing you imports below
 @import "foundation";
 
+@import "compass/layout/grid-background";
+
+@import "megadrop";
+@import "custom";
+
 // ----------------------------------------
 // Import specific parts of Foundation by commenting the import "foundation"
 // and uncommenting what you want below. You must uncomment the following if customizing
 
 // @import "compass/css3";
+
 // @import "foundation/settings";
 // @import "foundation/functions/all";
 
@@ -50,3 +56,10 @@
 
 // Media Queries Overrides
 // @import "foundation/components/modules/mqueries";
+
+
+
+@import "foundicons/general/general_foundicons";
+@import "foundicons/accessibility/accessibility_foundicons";
+@import "foundicons/enclosed/general_enclosed_foundicons";
+@import "foundicons/social/social_foundicons";
